@@ -1,0 +1,69 @@
+.playlist {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-x: hidden;
+    width: 42%;
+    height: 35.5rem;
+    padding: 0.5rem 1rem 1rem 1rem;
+    background-color: rgb(255, 255, 255);
+    border-radius: 1.5rem;
+    color: #0F3D6B;
+  }
+  
+  .playlist-name {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .edit-icon {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+    
+  .playlist input {
+    width: 80%;
+    border: 0;
+    outline: 0;
+    background: transparent;
+    border-bottom: 1px solid #0f3d6b1a;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    color: #0F3D6B;
+    text-align: center;
+  }
+    
+  .playlist-save {
+    cursor: pointer;
+    width: 10rem;
+    padding: 0.5rem;
+    border-radius: 54px;
+    border-width: 0px;
+    margin-top: 1.27rem;
+    background-color: #FEB299;
+    text-align: center;
+    font-size: .83rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    transition: background-color .25s;
+    color: #0F3D6B;
+  }
+  
+  .playlist-save:hover {
+    background-color: #feb29991;
+  }
+  
+  ::-webkit-scrollbar {
+    scrollbar-width: thin;
+    background: transparent;
+  }
+  
+  @media only screen and (max-width: 1020px) {
+    .playlist {
+      width: 90%;
+    }
+  }
+  
